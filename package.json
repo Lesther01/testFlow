@@ -1,0 +1,23 @@
+{
+  "name": "testflow",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "mocha test/*.js --timeout 150"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "ipapi.co": "^0.2.3",
+    "mocha": "^5.2.0",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0"
+  }
+}
